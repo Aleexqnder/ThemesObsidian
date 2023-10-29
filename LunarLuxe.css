@@ -2,14 +2,9 @@
     background-color: #000000; /* Barra izquierda, iconos. */
 }
 
-.workspace-ribbon .icons {
-    color: #ff3030; /* Cambia a tu color preferido. */
-}
+.workspace-ribbon svg {
+    fill: #ffffff; /* Cambia el color de los icon
 
-.workspace-ribbon .iconic:hover {
-    color: #ff0000; /* Cambia a tu color de hover preferido. */
-}
-
-.workspace-ribbon .mod-active {
-    background-color: #ff0606; /* Cambia a tu color preferido. */
+    .workspace-ribbon svg:hover {
+    fill: var(--color-accent); /* Cambia el color de los iconos al pasar el cursor */
 }
