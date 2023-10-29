@@ -1,0 +1,22 @@
+/* Aumenta el espacio entre el cuadro y el texto de la tarea */
+.markdown-preview-view .task-list-item-checkbox {
+    margin-right: 10px;
+}
+
+/* Estilo para tareas pendientes */
+.markdown-preview-view li [type="checkbox"]:not(:checked) + .task-list-item {
+    color: #FF8C00; /* Color naranja */
+    font-weight: bold;
+    background: rgba(255, 140, 0, 0.1); /* Fondo naranja claro */
+    border-radius: 5px;
+    padding: 2px 10px;
+}
+
+/* Estilo para tareas completadas */
+.markdown-preview-view li [type="checkbox"]:checked + .task-list-item {
+    color: #32CD32; /* Color verde */
+    text-decoration: line-through;
+    background: rgba(50, 205, 50, 0.1); /* Fondo verde claro */
+    border-radius: 5px;
+    padding: 2px 10px;
+}

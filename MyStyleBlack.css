@@ -1,0 +1,62 @@
+.markdown-preview-view h1 {
+    color: rgb(252, 94, 94);
+    font-family: 'Times New Roman';
+    line-height: 3;  /* Esta línea ajusta el interlineado. Puedes modificar el valor según lo que prefieras */
+    font-weight: normal;  
+    text-align: center;  
+}
+
+.markdown-preview-view h2 {
+    color: hsl(281, 100%, 83%);
+    font-family: 'Times New Roman';
+    font-weight: normal;  
+    border-bottom: 1px solid #f77074;
+    
+}
+
+.markdown-preview-view h3 {
+    color: hsl(66, 100%, 52%);
+    font-family: 'Times New Roman';
+    font-weight: normal;  
+    border-bottom: 1px solid #ffec3d;
+    
+}
+
+
+.markdown-preview-view h4 {
+    color: hwb(0 35% 0%);
+    font-family: 'Lucida Fax';
+    font-weight: normal;  
+    border-bottom: 1px solid #bfff58;
+    display: inline-block;
+    padding: 5px 15px;
+    border-radius: 10px;
+    margin: 10px 0;
+    
+}
+
+
+
+.markdown-preview-view h5 {
+    color: #FFD700;  /* Oro */
+    text-shadow: 0 0 5px #ff4747, 0 0 10px #ff8432;
+    font-weight: bold;
+}
+
+.markdown-preview-view h6 {
+    background-image: linear-gradient(to right, #ffffff, #ff97e8, hsl(204, 100%, 55%));
+    -webkit-background-clip: text;
+    color: transparent;
+    border: none;
+    display: inline-block;
+    padding: 5px 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+
+.espaciado-personalizado {
+    margin-bottom: 45px;
+}
+

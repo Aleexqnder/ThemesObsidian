@@ -1,0 +1,46 @@
+.markdown-preview-view h1 {
+    color: #000000; /* Un rojo oscuro */
+    font-family: 'Times New Roman';
+    line-height: 3;
+    font-weight: bold;
+    text-align: center;
+}
+
+.markdown-preview-view h2 {
+    color: #5C6BC0; /* Púrpura desaturado */
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    border-bottom: 1px solid #26a938;
+}
+
+.markdown-preview-view h3 {
+    color: #ff7fa5; /* Amarillo oscuro */
+    font-family: 'Times New Roman';
+    border-bottom: 1px solid #ff469c;
+}
+
+.markdown-preview-view h4 {
+    color: #616161; /* Gris oscuro */
+    font-family: 'Lucida Fax';
+    font-weight: bold;
+    border-bottom: 1px solid #48004b; /* Gris claro */
+    display: inline-block;
+    padding: 5px 15px;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+.markdown-preview-view h5 {
+    color: #6530e0; /* Naranja oscuro */
+    font-weight: bold;
+}
+
+.markdown-preview-view h6 {
+      color: #fd6aae; /* Amarillo oscuro */
+    font-family: 'Times New Roman';
+    border-bottom: 1px solid #ff7fa5;
+}
+
+.espaciado-personalizado {
+    margin-bottom: 45px;
+}
